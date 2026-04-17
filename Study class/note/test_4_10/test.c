@@ -37,12 +37,27 @@
 //	return 0;
 //}
 
-extern int Add();
+//extern int Add();
+//int main()
+//{
+//	int a = 10;
+//	int b = 20;
+//	int z = Add(a, b);
+//	printf("%d\n", z);
+//	return 0;
+//}
+
+//标识符常量
+#define NUM 100
+
+
+
 int main()
 {
-	int a = 10;
-	int b = 20;
-	int z = Add(a, b);
-	printf("%d\n", z);
+	printf("%d\n", NUM);
+	int n = NUM;
+	printf("%d\n", n);
+	int arr[NUM] = {0};
+
 	return 0;
 }
